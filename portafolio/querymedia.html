@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang: es>
+<head> <title> Semantico </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="David">
+    <meta name="Description" content="repaso del HEAD y los estilos en cascada"> 
+    <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python">
+    <style>
+        body{background-color: chartreuse;} /* query media */
+        @media only screen and (min-width: 900px) {     /*desktop*/
+            body {
+                background-color: rgb(124, 57, 212);}
+        }
+        
+        @media only screen and (max-width:900px) and (min-width: 601px){       /*tablet*/
+            body{
+                background-color: rgb(23, 216, 87);
+                font-size: 1em ;}
+            #img2{display:none;}
+        }
+        @media only screen and (max-width:600px) {     /* movil */
+            body{
+                background-color: yellow;
+                font-size: 0,5em;}
+            img{ display:none;}
+        }
+
+    </style>
+    </head>
+    <body>
+        <img src="multimedia/img/centos-brands.svg" id="img2"> </img>
+        <img src="multimedia/img/blackberry-brands.svg"> </img>
+
+
+
+    </body>
+    </html>
+
+

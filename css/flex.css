@@ -1,0 +1,24 @@
+#contenedor{display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; /*es por defecto*/
+    justify-content: center;
+    justify-content: space-around;
+    flex-grow: column wrap;
+    width: 95%;
+    background-color: blue;
+    height: 500px;
+    font-size: 28px;}
+#verde{width:20%;
+    height:100px;
+    text-align: center;
+    border: solid black;
+    background-color: rgb(12, 170, 20);
+    font-size: 50px;
+    color:black}
+#amarillo{width: 20%;
+    height:100px;
+    text-align: center;
+    border: solid black;
+    background-color: yellow;
+    font-size: 50px;
+    color:black}
